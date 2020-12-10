@@ -148,26 +148,26 @@
                   CONTACT FORM
                 </h2>
                 <hr>
-                <form>
+                <form 
+                action="https://formspree.io/f/moqpkdzz"
+                method="POST"
+                enctype="multipart/form-data"
+                >
                     <div class="form-group">
-                      <label>Name</label>
-                      <input type="text" class="form-control">
+                      <labe>Name</label>
+                      <input type="text" class="form-control" name="name" required>
                     </div>
                     <div class="form-group">
                       <label>Email</label>
-                      <input type="email" class="form-control">
+                      <input type="email" class="form-control" name="_replyto" required>
                     </div>
                     <div class="form-group">
-                      <label>Password</label>
-                      <input type="password" class="form-control">
+                      <label>
+                        Your file:
+                        <input type="file" name="upload">
+                      </label>
                     </div>
-                    <div class="form-group">
-                      <label><input type="checkbox"> Check me</label>
-                    </div>
-                    <div class="form-group">
-                        <label><input type="radio"> Radio me</label>
-                    </div>
-                    <button class="btn btn-danger">Submit</button>
+                    <button type="submit" class="btn btn-danger">Submit</button>
                 </form>
             </div>
           </div>

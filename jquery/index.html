@@ -1,9 +1,14 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+            <meta charset="UTF-8">
             <title>Index</title>
+            <meta name="description" content="Free Web tutorials">
+            <meta name="keywords" content="HTML, CSS, JavaScript">
+            <meta name="author" content="Jamar S. Usman">
+
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/css/tether.css" 
             integrity="sha512-YeO9Lv2Jy6gbrlH51kSfS49fz1Mk7TaDr3agLm4aCib/E4NsN4kiztD3n4xHaurr1rVEYBNZsMavWrTxu4fCQw==" 
             crossorigin="anonymous" />
@@ -11,8 +16,13 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-            <link rel="stylesheet" href="css/prc.css">
+            <!-- this for animated/animate.css https://animate.style/ -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+            <!-- <link rel="stylesheet" href="css/prc.css"> -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+            
             
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
@@ -22,7 +32,8 @@
 
       
 
-        <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
+        <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-dark bg-dark">
             <a href="#" class="navbar-brand">BOOTSTRAP</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNav" aria-controls="MyNav" 
@@ -39,12 +50,36 @@
         </nav>
 
 
-        <b-form-group></b-form-group>
+        <div class="container">
+          <div class="row text-center">
+              <div class="col-sm-12">
+                <h1 class="goodbye" style="color:red;font-size:100px;">GoodBye</h1>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-sm-6">
+                <h2>Left Column</h2>
+                <div class="jumbotron left">
+                  <button class="btn btn-default target" id="target1">One</button>
+                  <button class="btn btn-default target" id="target2">Two</button>
+                  <button class="btn btn-default target" id="target3">Three</button>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <h2>Right Column</h2>
+                  <div class="jumbotron right">
+                    <button class="btn btn-default target" id="target4">Four</button>
+                    <button class="btn btn-default target" id="target5">Five</button>
+                    <button class="btn btn-default target" id="target6">Six</button>
+                  </div>
+              </div>
+          </div>
+        </div>
 
 
 
 
-        <script src="app.js"></script>
+        
         <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script> -->
 
 
@@ -63,6 +98,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" 
         integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" 
         crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
 
     </body>
 
